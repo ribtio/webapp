@@ -1,11 +1,11 @@
-import { Button } from "@nextui-org/react";
+import Header from "./components/header/page";
 
 function App() {
   return (
     <>
-      <div>
-        <Button>Clickme</Button>
-      </div>
+      <footer>
+        <Header />
+      </footer>
     </>
   );
 }
