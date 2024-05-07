@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Letterbar from "./components/letterbar";
 import SectionContent from "./components/section-content";
@@ -16,6 +17,9 @@ function App() {
         <SectionFirstContent />
         <SectionContent />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

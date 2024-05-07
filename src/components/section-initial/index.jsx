@@ -43,7 +43,7 @@ const SectionInitial = () => {
       <div className="w-[650px] flex justify-between items-center mt-14">
         <Button className="capitalize gap-5 w-[297px] h-[65px] rounded-md border-[#00336C] border-2 bg-[#006FEE] text-white font-semibold text-[20px]">
           TRY FOR FREE
-          <image
+          <img
             className=""
             src={ArrowRightIcon}
             width={25}
@@ -59,7 +59,7 @@ const SectionInitial = () => {
             className="gap-5 w-[297px] h-[65px] rounded-md border-[#730028] border-2 bg-[#F31260] text-white font-semibold text-[20px]"
           >
             SEE PRICING
-            <image
+            <img
               className=""
               src={DollarIcon}
               width={35}
@@ -170,7 +170,7 @@ const SectionInitial = () => {
         </ModalContent>
       </Modal>
       <div className="flex justify-center items-center gap-4 mt-14">
-        <image
+        <img
           className=""
           src={MedalIcon}
           width={35}

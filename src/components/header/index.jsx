@@ -1,11 +1,10 @@
-import { Image } from "@nextui-org/react";
 import Logo from "../../assets/logo-ribt.svg";
 export default function Header() {
   return (
     <div>
       <div className="w-full h-36 flex">
         <div className="w-full flex justify-center items-center px-12">
-          <Image
+          <img
             className=""
             src={Logo}
             width={130}
