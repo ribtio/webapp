@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   Modal,
   ModalContent,
@@ -16,7 +15,7 @@ import ArrowRightIcon from "../../assets/arrow-right.svg";
 import DollarIcon from "../../assets/currency-dollar.svg";
 import MedalIcon from "../../assets/medal-icon.svg";
 
-export function SectionCard() {
+const SectionInitial = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [size, setSize] = React.useState("3xl");
 
@@ -184,4 +183,5 @@ export function SectionCard() {
       </div>
     </div>
   );
-}
+};
+export default SectionInitial;

@@ -1,5 +1,5 @@
-import Header from "./components/header/page";
-import { SectionCard } from "./components/section-car/page";
+import Header from "./components/header";
+import SectionInitial from "./components/section-initial";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <Header />
       </footer>
       <main>
-        <SectionCard />
+        <SectionInitial />
       </main>
     </>
   );
